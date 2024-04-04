@@ -1,11 +1,12 @@
 package avro
 
 import (
-	"crypto/md5"
 	"encoding/hex"
 	"errors"
 	"fmt"
 	"os"
+
+	"github.com/cloudflare/cfssl/scan/crypto/md5"
 
 	jsoniter "github.com/json-iterator/go"
 	"github.com/mitchellh/mapstructure"

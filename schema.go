@@ -2,7 +2,6 @@ package avro
 
 import (
 	"bytes"
-	"crypto/md5"
 	"crypto/sha256"
 	"errors"
 	"fmt"
@@ -12,6 +11,8 @@ import (
 	"strings"
 	"sync"
 	"sync/atomic"
+
+	"github.com/cloudflare/cfssl/scan/crypto/md5"
 
 	"github.com/hamba/avro/v2/pkg/crc64"
 	jsoniter "github.com/json-iterator/go"
