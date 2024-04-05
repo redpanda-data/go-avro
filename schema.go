@@ -13,7 +13,6 @@ import (
 	"sync/atomic"
 
 	"github.com/cloudflare/cfssl/scan/crypto/md5"
-
 	"github.com/hamba/avro/v2/pkg/crc64"
 	jsoniter "github.com/json-iterator/go"
 )
